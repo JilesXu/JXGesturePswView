@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		07243E44214F3DD200BBA833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E43214F3DD200BBA833 /* AppDelegate.m */; };
-		07243E47214F3DD200BBA833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E46214F3DD200BBA833 /* ViewController.m */; };
-		07243E4A214F3DD200BBA833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07243E48214F3DD200BBA833 /* Main.storyboard */; };
 		07243E4C214F3DD400BBA833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07243E4B214F3DD400BBA833 /* Assets.xcassets */; };
-		07243E4F214F3DD400BBA833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07243E4D214F3DD400BBA833 /* LaunchScreen.storyboard */; };
 		07243E52214F3DD400BBA833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E51214F3DD400BBA833 /* main.m */; };
 		07243E5C214F3DD400BBA833 /* JXGesturePswViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E5B214F3DD400BBA833 /* JXGesturePswViewTests.m */; };
 		07243E67214F3DD400BBA833 /* JXGesturePswViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E66214F3DD400BBA833 /* JXGesturePswViewUITests.m */; };
+		07243E7B214F4EF100BBA833 /* UIColor+JXExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E77214F4EF000BBA833 /* UIColor+JXExtend.m */; };
+		07243E7C214F4EF100BBA833 /* JXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E78214F4EF000BBA833 /* JXUtilities.m */; };
+		07243E7F214F4F8A00BBA833 /* JXGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E7E214F4F8A00BBA833 /* JXGestureLockView.m */; };
+		07243E83214F7A8E00BBA833 /* JXGestureDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E82214F7A8E00BBA833 /* JXGestureDrawRectView.m */; };
+		07243E8B214F7FCD00BBA833 /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07243E89214F7FCD00BBA833 /* gesture_normal@2x.png */; };
+		07243E8C214F7FCD00BBA833 /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07243E8A214F7FCD00BBA833 /* gesture_selected@2x.png */; };
+		07243E90214F8FA800BBA833 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07243E8F214F8FA800BBA833 /* ExampleVC.m */; };
+		15B691B5BD039B87E436DB86 /* libPods-JXGesturePswViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3429DF60C7ED14EF796437A4 /* libPods-JXGesturePswViewTests.a */; };
+		53A7F6B3281BED77158327C7 /* libPods-JXGesturePswViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 694CBB9A470535AFB91C78B5 /* libPods-JXGesturePswViewUITests.a */; };
+		54C11EC99DB3D11AE7B04631 /* libPods-JXGesturePswView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44586ADE23DD8BFD048C3CEA /* libPods-JXGesturePswView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +45,7 @@
 		07243E3F214F3DD200BBA833 /* JXGesturePswView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXGesturePswView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07243E42214F3DD200BBA833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07243E43214F3DD200BBA833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07243E45214F3DD200BBA833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07243E46214F3DD200BBA833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		07243E49214F3DD200BBA833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07243E4B214F3DD400BBA833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07243E4E214F3DD400BBA833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07243E50214F3DD400BBA833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07243E51214F3DD400BBA833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07243E57214F3DD400BBA833 /* JXGesturePswViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXGesturePswViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,28 @@
 		07243E62214F3DD400BBA833 /* JXGesturePswViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXGesturePswViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07243E66214F3DD400BBA833 /* JXGesturePswViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXGesturePswViewUITests.m; sourceTree = "<group>"; };
 		07243E68214F3DD400BBA833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07243E77214F4EF000BBA833 /* UIColor+JXExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JXExtend.m"; sourceTree = "<group>"; };
+		07243E78214F4EF000BBA833 /* JXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXUtilities.m; sourceTree = "<group>"; };
+		07243E79214F4EF000BBA833 /* UIColor+JXExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JXExtend.h"; sourceTree = "<group>"; };
+		07243E7A214F4EF000BBA833 /* JXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXUtilities.h; sourceTree = "<group>"; };
+		07243E7D214F4F8A00BBA833 /* JXGestureLockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXGestureLockView.h; sourceTree = "<group>"; };
+		07243E7E214F4F8A00BBA833 /* JXGestureLockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXGestureLockView.m; sourceTree = "<group>"; };
+		07243E81214F7A8E00BBA833 /* JXGestureDrawRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXGestureDrawRectView.h; sourceTree = "<group>"; };
+		07243E82214F7A8E00BBA833 /* JXGestureDrawRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXGestureDrawRectView.m; sourceTree = "<group>"; };
+		07243E89214F7FCD00BBA833 /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
+		07243E8A214F7FCD00BBA833 /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
+		07243E8D214F889D00BBA833 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = JXGesturePswView/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		07243E8E214F8FA800BBA833 /* ExampleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = "<group>"; };
+		07243E8F214F8FA800BBA833 /* ExampleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = "<group>"; };
+		0C9D5D0CA3E197E5124DBC33 /* Pods-JXGesturePswViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGesturePswViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXGesturePswViewUITests/Pods-JXGesturePswViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		248E37C4455ABC7F62E143E2 /* Pods-JXGesturePswViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGesturePswViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXGesturePswViewTests/Pods-JXGesturePswViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		282AA6DBA7E816673764F8AA /* Pods-JXGesturePswView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGesturePswView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXGesturePswView/Pods-JXGesturePswView.debug.xcconfig"; sourceTree = "<group>"; };
+		3429DF60C7ED14EF796437A4 /* libPods-JXGesturePswViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXGesturePswViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3527FAFAA9DBBE243A7355B3 /* Pods-JXGesturePswViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGesturePswViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXGesturePswViewTests/Pods-JXGesturePswViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44586ADE23DD8BFD048C3CEA /* libPods-JXGesturePswView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXGesturePswView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		694CBB9A470535AFB91C78B5 /* libPods-JXGesturePswViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXGesturePswViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B9E8B6A5D0B1EDD189FB52 /* Pods-JXGesturePswView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGesturePswView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXGesturePswView/Pods-JXGesturePswView.release.xcconfig"; sourceTree = "<group>"; };
+		A7FD780C5E23A1E55B94FFA6 /* Pods-JXGesturePswViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXGesturePswViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXGesturePswViewUITests/Pods-JXGesturePswViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C11EC99DB3D11AE7B04631 /* libPods-JXGesturePswView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B691B5BD039B87E436DB86 /* libPods-JXGesturePswViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A7F6B3281BED77158327C7 /* libPods-JXGesturePswViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,8 @@
 				07243E5A214F3DD400BBA833 /* JXGesturePswViewTests */,
 				07243E65214F3DD400BBA833 /* JXGesturePswViewUITests */,
 				07243E40214F3DD200BBA833 /* Products */,
+				904963771F015E90FD2D72AE /* Pods */,
+				E105954FA5032C896B222C8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +131,14 @@
 		07243E41214F3DD200BBA833 /* JXGesturePswView */ = {
 			isa = PBXGroup;
 			children = (
+				07243E74214F4E7F00BBA833 /* JXGesturePswView */,
+				07243E75214F4E8900BBA833 /* Example */,
 				07243E42214F3DD200BBA833 /* AppDelegate.h */,
 				07243E43214F3DD200BBA833 /* AppDelegate.m */,
-				07243E45214F3DD200BBA833 /* ViewController.h */,
-				07243E46214F3DD200BBA833 /* ViewController.m */,
-				07243E48214F3DD200BBA833 /* Main.storyboard */,
 				07243E4B214F3DD400BBA833 /* Assets.xcassets */,
-				07243E4D214F3DD400BBA833 /* LaunchScreen.storyboard */,
 				07243E50214F3DD400BBA833 /* Info.plist */,
 				07243E51214F3DD400BBA833 /* main.m */,
+				07243E8D214F889D00BBA833 /* PrefixHeader.pch */,
 			);
 			path = JXGesturePswView;
 			sourceTree = "<group>";
@@ -132,6 +161,71 @@
 			path = JXGesturePswViewUITests;
 			sourceTree = "<group>";
 		};
+		07243E74214F4E7F00BBA833 /* JXGesturePswView */ = {
+			isa = PBXGroup;
+			children = (
+				07243E88214F7FB800BBA833 /* Image */,
+				07243E7D214F4F8A00BBA833 /* JXGestureLockView.h */,
+				07243E7E214F4F8A00BBA833 /* JXGestureLockView.m */,
+				07243E81214F7A8E00BBA833 /* JXGestureDrawRectView.h */,
+				07243E82214F7A8E00BBA833 /* JXGestureDrawRectView.m */,
+				07243E76214F4EF000BBA833 /* JXTool */,
+			);
+			path = JXGesturePswView;
+			sourceTree = "<group>";
+		};
+		07243E75214F4E8900BBA833 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				07243E8E214F8FA800BBA833 /* ExampleVC.h */,
+				07243E8F214F8FA800BBA833 /* ExampleVC.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		07243E76214F4EF000BBA833 /* JXTool */ = {
+			isa = PBXGroup;
+			children = (
+				07243E79214F4EF000BBA833 /* UIColor+JXExtend.h */,
+				07243E77214F4EF000BBA833 /* UIColor+JXExtend.m */,
+				07243E7A214F4EF000BBA833 /* JXUtilities.h */,
+				07243E78214F4EF000BBA833 /* JXUtilities.m */,
+			);
+			path = JXTool;
+			sourceTree = "<group>";
+		};
+		07243E88214F7FB800BBA833 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				07243E89214F7FCD00BBA833 /* gesture_normal@2x.png */,
+				07243E8A214F7FCD00BBA833 /* gesture_selected@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		904963771F015E90FD2D72AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				282AA6DBA7E816673764F8AA /* Pods-JXGesturePswView.debug.xcconfig */,
+				94B9E8B6A5D0B1EDD189FB52 /* Pods-JXGesturePswView.release.xcconfig */,
+				3527FAFAA9DBBE243A7355B3 /* Pods-JXGesturePswViewTests.debug.xcconfig */,
+				248E37C4455ABC7F62E143E2 /* Pods-JXGesturePswViewTests.release.xcconfig */,
+				A7FD780C5E23A1E55B94FFA6 /* Pods-JXGesturePswViewUITests.debug.xcconfig */,
+				0C9D5D0CA3E197E5124DBC33 /* Pods-JXGesturePswViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E105954FA5032C896B222C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44586ADE23DD8BFD048C3CEA /* libPods-JXGesturePswView.a */,
+				3429DF60C7ED14EF796437A4 /* libPods-JXGesturePswViewTests.a */,
+				694CBB9A470535AFB91C78B5 /* libPods-JXGesturePswViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07243E6B214F3DD400BBA833 /* Build configuration list for PBXNativeTarget "JXGesturePswView" */;
 			buildPhases = (
+				1506B43E78B8AB7D54B48150 /* [CP] Check Pods Manifest.lock */,
 				07243E3B214F3DD200BBA833 /* Sources */,
 				07243E3C214F3DD200BBA833 /* Frameworks */,
 				07243E3D214F3DD200BBA833 /* Resources */,
@@ -156,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07243E6E214F3DD400BBA833 /* Build configuration list for PBXNativeTarget "JXGesturePswViewTests" */;
 			buildPhases = (
+				035AB7C7BBF5D62A7FDBCA62 /* [CP] Check Pods Manifest.lock */,
 				07243E53214F3DD400BBA833 /* Sources */,
 				07243E54214F3DD400BBA833 /* Frameworks */,
 				07243E55214F3DD400BBA833 /* Resources */,
@@ -174,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07243E71214F3DD400BBA833 /* Build configuration list for PBXNativeTarget "JXGesturePswViewUITests" */;
 			buildPhases = (
+				76299EAE1D2C870575BD5977 /* [CP] Check Pods Manifest.lock */,
 				07243E5E214F3DD400BBA833 /* Sources */,
 				07243E5F214F3DD400BBA833 /* Frameworks */,
 				07243E60214F3DD400BBA833 /* Resources */,
@@ -235,9 +332,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07243E4F214F3DD400BBA833 /* LaunchScreen.storyboard in Resources */,
 				07243E4C214F3DD400BBA833 /* Assets.xcassets in Resources */,
-				07243E4A214F3DD200BBA833 /* Main.storyboard in Resources */,
+				07243E8B214F7FCD00BBA833 /* gesture_normal@2x.png in Resources */,
+				07243E8C214F7FCD00BBA833 /* gesture_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +354,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		035AB7C7BBF5D62A7FDBCA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXGesturePswViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1506B43E78B8AB7D54B48150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXGesturePswView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76299EAE1D2C870575BD5977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXGesturePswViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07243E3B214F3DD200BBA833 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07243E47214F3DD200BBA833 /* ViewController.m in Sources */,
 				07243E52214F3DD400BBA833 /* main.m in Sources */,
 				07243E44214F3DD200BBA833 /* AppDelegate.m in Sources */,
+				07243E90214F8FA800BBA833 /* ExampleVC.m in Sources */,
+				07243E7F214F4F8A00BBA833 /* JXGestureLockView.m in Sources */,
+				07243E7B214F4EF100BBA833 /* UIColor+JXExtend.m in Sources */,
+				07243E7C214F4EF100BBA833 /* JXUtilities.m in Sources */,
+				07243E83214F7A8E00BBA833 /* JXGestureDrawRectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +456,6 @@
 			targetProxy = 07243E63214F3DD400BBA833 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		07243E48214F3DD200BBA833 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07243E49214F3DD200BBA833 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07243E4D214F3DD400BBA833 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07243E4E214F3DD400BBA833 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		07243E69214F3DD400BBA833 /* Debug */ = {
@@ -431,9 +570,11 @@
 		};
 		07243E6C214F3DD400BBA833 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282AA6DBA7E816673764F8AA /* Pods-JXGesturePswView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/Jiles/Desktop/My_Project/My_Component/JXGesturePswView/JXGesturePswView/PrefixHeader.pch;
 				INFOPLIST_FILE = JXGesturePswView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +588,11 @@
 		};
 		07243E6D214F3DD400BBA833 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B9E8B6A5D0B1EDD189FB52 /* Pods-JXGesturePswView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/Jiles/Desktop/My_Project/My_Component/JXGesturePswView/JXGesturePswView/PrefixHeader.pch;
 				INFOPLIST_FILE = JXGesturePswView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +606,7 @@
 		};
 		07243E6F214F3DD400BBA833 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3527FAFAA9DBBE243A7355B3 /* Pods-JXGesturePswViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +625,7 @@
 		};
 		07243E70214F3DD400BBA833 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248E37C4455ABC7F62E143E2 /* Pods-JXGesturePswViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +644,7 @@
 		};
 		07243E72214F3DD400BBA833 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FD780C5E23A1E55B94FFA6 /* Pods-JXGesturePswViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXGesturePswViewUITests/Info.plist;
@@ -516,6 +662,7 @@
 		};
 		07243E73214F3DD400BBA833 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9D5D0CA3E197E5124DBC33 /* Pods-JXGesturePswViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXGesturePswViewUITests/Info.plist;

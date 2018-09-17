@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ExampleVC.h
 //  JXGesturePswView
 //
 //  Created by 徐沈俊杰 on 2018/9/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ExampleVC : UIViewController
 
 @end
-
